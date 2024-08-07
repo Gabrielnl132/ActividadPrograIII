@@ -1,0 +1,87 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    text-align: center;
+    color: #343a40;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el contenedor */
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Estilo para el encabezado de la tabla */
+.table thead th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Estilo para la tabla */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Estilo para el formulario */
+form {
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.btn-secondary:hover {
+    background-color: #6c757d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el botón de añadir producto */
+button[type="submit"] {
+    margin-top: 10px;
+}

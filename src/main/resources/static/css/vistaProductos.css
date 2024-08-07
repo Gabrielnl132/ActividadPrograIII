@@ -1,0 +1,88 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    text-align: center;
+    color: #343a40;
+    font-size: 2.5rem;
+}
+
+/* Estilo para el contenedor */
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Estilo para el botón "Agregar Nuevo Producto" */
+.btn-primary {
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para la tabla */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Estilo para los botones de acción en la tabla */
+.btn-warning, .btn-danger {
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #212529;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
